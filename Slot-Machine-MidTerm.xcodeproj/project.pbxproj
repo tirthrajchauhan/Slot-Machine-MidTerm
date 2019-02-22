@@ -20,6 +20,12 @@
 		C5395B77221F7F340008EE00 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5395B76221F7F340008EE00 /* Background.swift */; };
 		C5395BA9221F81290008EE00 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = C5395BA8221F81290008EE00 /* background.png */; };
 		C5395BAC221F822A0008EE00 /* spinButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C5395BAB221F822A0008EE00 /* spinButton.png */; };
+		C5395BAE221F82A80008EE00 /* SpinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5395BAD221F82A80008EE00 /* SpinButton.swift */; };
+		C5395BB0221F8DFA0008EE00 /* quit.png in Resources */ = {isa = PBXBuildFile; fileRef = C5395BAF221F8DFA0008EE00 /* quit.png */; };
+		C5395BB4221F8E170008EE00 /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5395BB3221F8E170008EE00 /* Reset.swift */; };
+		C5395BB6221F91200008EE00 /* Resett.png in Resources */ = {isa = PBXBuildFile; fileRef = C5395BB5221F911F0008EE00 /* Resett.png */; };
+		C5395BBA221F92150008EE00 /* Quit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5395BB9221F92150008EE00 /* Quit.swift */; };
+		C5395BBC221F924E0008EE00 /* Reset.png in Resources */ = {isa = PBXBuildFile; fileRef = C5395BBB221F924E0008EE00 /* Reset.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +44,12 @@
 		C5395B76221F7F340008EE00 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		C5395BA8221F81290008EE00 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		C5395BAB221F822A0008EE00 /* spinButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spinButton.png; sourceTree = "<group>"; };
+		C5395BAD221F82A80008EE00 /* SpinButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinButton.swift; sourceTree = "<group>"; };
+		C5395BAF221F8DFA0008EE00 /* quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quit.png; sourceTree = "<group>"; };
+		C5395BB3221F8E170008EE00 /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
+		C5395BB5221F911F0008EE00 /* Resett.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resett.png; sourceTree = "<group>"; };
+		C5395BB9221F92150008EE00 /* Quit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quit.swift; sourceTree = "<group>"; };
+		C5395BBB221F924E0008EE00 /* Reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Reset.png; path = ../../../../../Downloads/Reset.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +103,9 @@
 				C5395B72221F7EF60008EE00 /* GameObject.swift */,
 				C5395B74221F7F130008EE00 /* GameProtocol.swift */,
 				C5395B76221F7F340008EE00 /* Background.swift */,
+				C5395BAD221F82A80008EE00 /* SpinButton.swift */,
+				C5395BB3221F8E170008EE00 /* Reset.swift */,
+				C5395BB9221F92150008EE00 /* Quit.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -98,6 +113,9 @@
 		C5395BAA221F82080008EE00 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				C5395BBB221F924E0008EE00 /* Reset.png */,
+				C5395BB5221F911F0008EE00 /* Resett.png */,
+				C5395BAF221F8DFA0008EE00 /* quit.png */,
 				C5395BA8221F81290008EE00 /* background.png */,
 				C5395BAB221F822A0008EE00 /* spinButton.png */,
 			);
@@ -163,11 +181,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5395B65221F7EAE0008EE00 /* Main.storyboard in Resources */,
+				C5395BB6221F91200008EE00 /* Resett.png in Resources */,
 				C5395BA9221F81290008EE00 /* background.png in Resources */,
+				C5395BBC221F924E0008EE00 /* Reset.png in Resources */,
 				C5395B5C221F7EAE0008EE00 /* GameScene.sks in Resources */,
 				C5395BAC221F822A0008EE00 /* spinButton.png in Resources */,
 				C5395B67221F7EAE0008EE00 /* Assets.xcassets in Resources */,
 				C5395B6A221F7EAE0008EE00 /* LaunchScreen.storyboard in Resources */,
+				C5395BB0221F8DFA0008EE00 /* quit.png in Resources */,
 				C5395B5E221F7EAE0008EE00 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,12 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5395BAE221F82A80008EE00 /* SpinButton.swift in Sources */,
+				C5395BB4221F8E170008EE00 /* Reset.swift in Sources */,
 				C5395B73221F7EF60008EE00 /* GameObject.swift in Sources */,
 				C5395B75221F7F130008EE00 /* GameProtocol.swift in Sources */,
 				C5395B60221F7EAE0008EE00 /* GameScene.swift in Sources */,
 				C5395B62221F7EAE0008EE00 /* GameViewController.swift in Sources */,
 				C5395B5A221F7EAE0008EE00 /* AppDelegate.swift in Sources */,
 				C5395B77221F7F340008EE00 /* Background.swift in Sources */,
+				C5395BBA221F92150008EE00 /* Quit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

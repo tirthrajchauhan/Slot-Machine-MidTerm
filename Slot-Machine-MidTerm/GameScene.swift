@@ -17,17 +17,37 @@ var screenHeight: CGFloat?
 
 class GameScene: SKScene {
     
-   var backgroundbg: Background?
+    var spinButton: SpinButton?
+    var backgroundbg: Background?
+    var reset: Reset?
+    var quit: Quit?
 
     override func didMove(to view: SKView) {
      
    
         
-        // add the ocean1 to scene
+        // add the background to scene
         backgroundbg = Background()
         backgroundbg?.size=self.frame.size
         addChild(backgroundbg!)
         
+        // add spinbutton to scene
+     
+        spinButton = SpinButton()
+        spinButton?.position = CGPoint(x: 0.0, y: -500.0)
+        addChild(spinButton!)
+        
+        // add reset to scene
+        
+        reset = Reset()
+        reset?.position = CGPoint(x: 200.0, y: -500.0)
+        addChild(reset!)
+        
+        // add quit to scene
+        
+        quit = Quit()
+        quit?.position = CGPoint(x: -200.0, y: -500.0)
+        addChild(quit!)
     }
     
     
