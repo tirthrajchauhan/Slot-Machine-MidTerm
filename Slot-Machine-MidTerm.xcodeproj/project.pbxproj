@@ -32,6 +32,7 @@
 		C5395BC8221F96E10008EE00 /* bell.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5395BC1221F96E10008EE00 /* bell.gif */; };
 		C5395BC9221F96E10008EE00 /* grapes.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5395BC2221F96E10008EE00 /* grapes.gif */; };
 		C5395BCA221F96E10008EE00 /* seven.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5395BC3221F96E10008EE00 /* seven.gif */; };
+		C5F9D741221FA27500DCC994 /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F9D740221FA27500DCC994 /* Credit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		C5395BC1221F96E10008EE00 /* bell.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bell.gif; sourceTree = "<group>"; };
 		C5395BC2221F96E10008EE00 /* grapes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = grapes.gif; sourceTree = "<group>"; };
 		C5395BC3221F96E10008EE00 /* seven.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = seven.gif; sourceTree = "<group>"; };
+		C5F9D740221FA27500DCC994 /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		C5395B58221F7EAE0008EE00 /* Slot-Machine-MidTerm */ = {
 			isa = PBXGroup;
 			children = (
+				C5F9D73F221FA25F00DCC994 /* Manager */,
 				C5395B71221F7EDD0008EE00 /* Objects */,
 				C5395B59221F7EAE0008EE00 /* AppDelegate.swift */,
 				C5395B5B221F7EAE0008EE00 /* GameScene.sks */,
@@ -138,6 +141,14 @@
 				C5395BAB221F822A0008EE00 /* spinButton.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		C5F9D73F221FA25F00DCC994 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C5F9D740221FA27500DCC994 /* Credit.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 				C5395BB4221F8E170008EE00 /* Reset.swift in Sources */,
 				C5395B73221F7EF60008EE00 /* GameObject.swift in Sources */,
 				C5395B75221F7F130008EE00 /* GameProtocol.swift in Sources */,
+				C5F9D741221FA27500DCC994 /* Credit.swift in Sources */,
 				C5395B60221F7EAE0008EE00 /* GameScene.swift in Sources */,
 				C5395B62221F7EAE0008EE00 /* GameViewController.swift in Sources */,
 				C5395B5A221F7EAE0008EE00 /* AppDelegate.swift in Sources */,
