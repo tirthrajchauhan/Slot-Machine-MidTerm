@@ -135,7 +135,7 @@ class GameScene: SKScene {
         addChild(Credit.WinLabel)
         
         Credit.UserLabel.position.x = 0
-        Credit.UserLabel.position.y = 280
+        Credit.UserLabel.position.y = 460
         
         Credit.UserLabel.fontColor = UIColor.yellow
         Credit.UserLabel.fontSize = 40.0
